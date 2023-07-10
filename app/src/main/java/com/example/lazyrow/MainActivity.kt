@@ -1,4 +1,4 @@
-package com.example.learningjetpackcompose
+package com.example.lazyrow
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
@@ -8,8 +8,9 @@ import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.lazy.LazyRow
 import androidx.compose.foundation.lazy.itemsIndexed
 import androidx.compose.ui.Modifier
-import com.example.lazyrow.R
 import com.example.lazyrow.ui.theme.Gray100
+import com.example.learningjetpackcompose.ItemRow
+import com.example.learningjetpackcompose.ItemRowModel
 
 
 class MainActivity : ComponentActivity() {
